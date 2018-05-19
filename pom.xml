@@ -76,14 +76,14 @@
     </properties>
     <repositories>
         <repository>
-            <id>sonatype-snapshots</id>
-            <name>Sonatype Snapshots</name>
-            <url>http://oss.sonatype.org/content/repositories/snapshots</url>
+            <id>snapshots</id>
+            <name>Snapshots</name>
+            <url>http://192.168.17.156:8081/nexus/content/repositories/snapshots/</url>
         </repository>
         <repository>
-            <id>sonatype-releases</id>
-            <name>Sonatype Releases</name>
-            <url>http://oss.sonatype.org/content/repositories/releases</url>
+            <id>releases</id>
+            <name>Releases</name>
+            <url>http://192.168.17.156:8081/nexus/content/repositories/releases/</url>
         </repository>
     </repositories>
     <dependencyManagement>
